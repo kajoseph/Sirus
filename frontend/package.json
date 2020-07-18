@@ -1,0 +1,32 @@
+{
+  "name": "sirus-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "0.19.2",
+    "solid-js": "^0.18.1",
+    "solid-scripts": "0.0.35",
+    "typescript": "3.9.2"
+  },
+  "devDependencies": {
+    "@types/axios": "0.14.0",
+    "@types/jest": "25.2.2",
+    "@types/node": "14.0.1",
+    "@typescript-eslint/eslint-plugin": "2.33.0",
+    "@typescript-eslint/parser": "2.33.0",
+    "eslint": "7.0.0"
+  },
+  "scripts": {
+    "start": "solid-scripts start",
+    "build": "solid-scripts build",
+    "test": "solid-scripts test",
+    "check-types": "tsc"
+  },
+  "browserslist": [
+    "Chrome 74",
+    "Firefox 63",
+    "Safari 11",
+    "Edge 17",
+    "Node 10"
+  ]
+}

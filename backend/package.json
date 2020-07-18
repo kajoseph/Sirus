@@ -1,0 +1,21 @@
+{
+  "name": "sirus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run tsc",
+    "start": "tsc && node ./build/index.js",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/hapi__hapi": "^19.0.3",
+    "typescript": "3.8.3"
+  },
+  "dependencies": {
+    "@hapi/hapi": "19.1.1"
+  }
+}
